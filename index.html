@@ -1,0 +1,155 @@
+<!DOCTYPE html lang="en-GB">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"><p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"><p class="no-js">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Roof Job Fast</title>
+        <meta name="description" content="Denver roofing company free quote to fix your roof fast and we work with your insurance. Professional roof repairs done right, gauranteed workmanship. We offer services for Denver, Aurora, Westminster, Lakewood, Arvada, Centennial, Castle Rock, Loveland, Greeley, Fort Collins and the surrounding areas here in Colorado.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="/manifest.webmanifest">
+        <script src="/static/main.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/pvy3lvp.css">
+        <link rel="stylesheet" href="/static/cache/front.css">
+        <script src="/static/cache/helpers.js"></script>
+        <script src="/static/cache/wc.js"></script>
+    </head>
+    <body>
+        <h1 class="SE0">Professional Roof Jobs Fast in Colorado</h1>
+        <p class="SE0">Fast and professional roofing services that work with your insurance. Quick and customer service oriented staff help you get your roof repair done right!</p>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://www.mozilla.org/en-US/firefox/download/thanks/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script>
+            getStarted = () => {
+                document.querySelector('#getstarted').scrollIntoView({behavior: 'smooth'})
+            }
+        </script>
+        <div id="cont">
+            <div id="header">
+                <h1>CO Roofing</h1>
+                <p>Get your roof repair done right fast!</p>
+                <get-started></get-started>
+                <div id="movedown">↓</div>
+            </div>
+            <script>
+                if (window.innerWidth <= 650) {
+                    document.querySelector('#header').style.backgroundImage = `url('/static/content/RoofingPhoto(mob).jpg')`
+                } else if (window.innerWidth > 650) {
+                    document.querySelector('#header').style.backgroundImage = `url('/static/content/RoofingPhoto(tab).jpg')`
+                } else {
+                    document.querySelector('#header').style.backgroundImage = `url('/static/content/RoofingPhoto.jpg')`
+                }
+            </script>
+            <div id="threephoto">
+                <h1>Why Work With Us:</h1>
+                <div class="b1">
+                    <img-card class="s" head="Fast Repairs" sub="You can get back to doing what you love faster by working with our trusted professionals." image="/static/content/roofingPhoto1.jpg"></img-card>
+                    <img-card class="s" head="Simple Process" sub="This is a simple and effective process for handling your entire roof repair. We will even work with your insurance for you." image="/static/content/roofingPhoto2.jpg"></img-card>
+                    <img-card class="s" head="Gauranteed Work" sub="We offer the best roof warranty. We gaurantee your repairs for up to 20 years." image="/static/content/roofingPhoto3.jpg"></img-card>
+                </div>
+            </div>
+            <div id="reviewbar" class="s">
+                <h1>Read what some of our satisfied customers have been writing:</h1>
+                <review-card name="Earnest A." image="" stars="5" body="They came out and gave me a free quote right away, negotiated it with my insurance for me and got started the next day, these guys are awesome!"></review-card>
+                <review-card name="Jason B." image="" stars="5" body="John is the most professional contractor I have ever worked with. Fast and efficient is how CO Roofing works."></review-card>
+            </div>
+            <div id="GS" class="s">
+                <form id="getstarted">
+                    <h1>Get a Free Quote!</h1>
+                    <p>Please fill out the form below and we will contact you shortly for a free estimate.</p>
+                    <span id="warn"></span>
+                    <div id="inputs" class="b2">
+                        <div class="b2">
+                            <label for="firstName">First Name</label>
+                            <input id="F" name="firstName" type="text">
+                        </div>
+                        <div class="b2">
+                            <label for="lastName">Last Name</label>
+                            <input id="L" name="lastName" type="text">
+                        </div>
+                        <div class="b2">
+                            <label for="phone">Phone</label>
+                            <input id="P" name="phone" type="tel">
+                        </div>
+                        <div class="b2">
+                            <label for="email">Email</label>
+                            <input id="E" name="email" type="email">
+                        </div>
+                    </div>
+                    <div class="b1" id="checkbox">
+                        <input id="agree" type="checkbox" name="agree"><label for="checkbox">I agree to be contacted by phone or email.</label>
+                    </div>
+                    <div class="b1"><input type="submit" id="sub" value="SUBMIT"></div>
+                </form>
+            </div>
+            <div id="footer" class="s">
+                <p>CO Roofing, <a href="https://ideadesignmedia.com/" style="text-decoration: none; color: inherit;">Website Built by Idea Design Media LLC © 2020</a></p>
+            </div>
+        </div>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', (e) => {
+            document.querySelector('#movedown').addEventListener('click', (e) => {
+                document.querySelector('#threephoto').scrollIntoView({behavior: 'smooth'});
+            })
+            let options = {
+            rootMargin: '0px',
+            threshold: .1
+        }
+		let obs1 = new IntersectionObserver((boxs) => {
+			boxs.forEach(box => {
+				if (box.isIntersecting && box.target.classList.contains('op')) {
+						box.target.classList.remove('op')
+				} else if (!box.target.classList.contains('op')) {
+					box.target.classList.add('op')
+				} 
+			})
+		}, options)
+		Array.from(document.querySelectorAll('.s')).forEach(box => obs1.observe(box))
+        })
+        document.querySelector('#getstarted').addEventListener('submit', function(e) {
+            e.preventDefault()
+            e.stopPropagation()
+            if (!this.agree.checked) return this.querySelector('#warn').innerHTML = 'Agree to be contacted.'
+            let data = {
+                name: `${this.firstName.value} ${this.lastName.value}`,
+                email: this.email.value,
+                phone: this.phone.value
+            }
+            let that = new XMLHttpRequest()
+            let warn = this.querySelector('#warn')
+            that.onerror = (e) => {
+                warn.innerHTML = 'Error processing this form. Check back later.'
+            }
+            that.onabort = (e) => {
+                warn.innerHTML = 'Connection Issues. Check your connection.'
+            }
+            that.onreadystatechange = () => {
+                if (that.readyState === 1) {
+                    warn.innerHTML = 'Sending request...'
+                } else if (that.readyState === 4) {
+                    warn.innerHTML = 'Info Received'
+                    let info = JSON.parse(that.responseText)
+                    console.log(JSON.stringify(info))
+                    if (info.error) {
+                        warn.innerHTML = info.message
+                    } else {
+                        this.reset()
+                        warn.classList.add('success')
+                        warn.innerHTML = info.message
+                        follow({page: '/', event: 'success', target: 'submit'})
+                        setTimeout(() => {
+
+                        })
+                    }
+                }
+            }
+            that.open('POST', '/get-started', true)
+            that.setRequestHeader('Content-Type', 'application/json')
+            that.send(JSON.stringify(data))
+        })
+    </script>
+</html>

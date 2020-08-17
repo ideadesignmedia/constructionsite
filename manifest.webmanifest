@@ -1,0 +1,15 @@
+{
+  "name": "Roof Job Fast Denver",
+  "short_name": "Denver Roof Repair",
+  "start_url": ".",
+  "scope": ".",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Fast roof repair professional work Denver, CO",
+  "icons": [{
+    "src": "/static/icon.svg",
+    "sizes": "150x150",
+    "type": "image/svg+xml",
+    "purpose": "any"
+  }]
+}
